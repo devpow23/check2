@@ -2,7 +2,7 @@
 user=$1
 type=$2
 
-database="/etc/VpsPackdir/" 
+database="/etc/SSHPLUS/" 
 
 user_exist() {
     [[ "$(grep -wc $user /etc/passwd)" != '0' ]] && {
